@@ -14,7 +14,7 @@ Un departamento puede tener varias ciudades, por lo que se manejo una relación 
 
 ---
 
-## Tecnologías usadas
+## Tecnologias usadas
 
 * Node.js
 * Express
@@ -26,7 +26,7 @@ En el cliente también se uso Apollo Client para hacer las consultas.
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## Como ejecutar el proyecto
 
 ### Backend
 
@@ -54,7 +54,7 @@ npm run dev
 
 ---
 
-## 🔎 Ejemplo de consulta
+## Ejemplo de consulta
 
 ```graphql
 query {
@@ -69,7 +69,7 @@ query {
 
 ---
 
-## 🧩 Fragments
+## Fragments
 
 Se usaron fragments para no repetir campos en las consultas.
 
@@ -81,6 +81,6 @@ fragment DatosCiudad on City {
   name
 }
 ```
-## 📎 Repositorio
+## Repositorio
 
 https://github.com/SantiagoMunevar125/graphql-api-colombia
