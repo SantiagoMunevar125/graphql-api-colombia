@@ -1,0 +1,8 @@
+{
+  "name": "graphql-api-colombia-project",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ]
+}
